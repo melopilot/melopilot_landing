@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeloPilot – Learn Piano, Guitar, Singing & More</title>
+  <meta name="description" content="MeloPilot – Your pilot to mastering music and language. Piano Pilot, Guitar Pilot, singing, English and more learning apps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Melo<span class="logo-accent">Pilot</span></a>
+      <nav class="nav">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Your pilot to<br><em>music & language</em></h1>
+        <p class="hero-tagline">Learn piano, guitar, singing, English and more—one step at a time, at your pace.</p>
+        <a href="#apps" class="btn btn-primary">Explore our apps</a>
+      </div>
+      <div class="hero-decoration" aria-hidden="true"></div>
+    </section>
+
+    <section id="apps" class="apps">
+      <div class="container">
+        <h2 class="section-title">Learn with MeloPilot</h2>
+        <p class="section-intro">Each app is your co-pilot on the journey—structured, friendly, and built for real progress.</p>
+        <ul class="app-grid">
+          <li class="app-card" data-app="piano">
+            <span class="app-icon" aria-hidden="true">🎹</span>
+            <h3>Piano Pilot</h3>
+            <p>From first notes to playing songs. Learn rhythm, chords, and reading music.</p>
+          </li>
+          <li class="app-card" data-app="guitar">
+            <span class="app-icon" aria-hidden="true">🎸</span>
+            <h3>Guitar Pilot</h3>
+            <p>Chords, strumming, fingerstyle. Start acoustic or electric, your way.</p>
+          </li>
+          <li class="app-card" data-app="singing">
+            <span class="app-icon" aria-hidden="true">🎤</span>
+            <h3>Singing</h3>
+            <p>Pitch, breathing, and confidence. Sing the songs you love.</p>
+          </li>
+          <li class="app-card" data-app="english">
+            <span class="app-icon" aria-hidden="true">📖</span>
+            <h3>English Pilot</h3>
+            <p>Listen, speak, read, and write. Practical English for daily life.</p>
+          </li>
+          <li class="app-card app-card-more" data-app="more">
+            <span class="app-icon" aria-hidden="true">✨</span>
+            <h3>More coming</h3>
+            <p>New pilots for more skills—stay tuned.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Why MeloPilot?</h2>
+        <div class="about-grid">
+          <div class="about-item">
+            <span class="about-number">01</span>
+            <h3>Structured learning</h3>
+            <p>Clear steps and goals so you always know what’s next.</p>
+          </div>
+          <div class="about-item">
+            <span class="about-number">02</span>
+            <h3>Learn at your pace</h3>
+            <p>Practice when it suits you. No rush, no pressure.</p>
+          </div>
+          <div class="about-item">
+            <span class="about-number">03</span>
+            <h3>Real skills</h3>
+            <p>Focus on what you’ll use—songs, conversation, reading.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2 class="cta-title">Ready to start?</h2>
+        <p class="cta-text">Pick an app above and begin your journey. More pilots are on the way.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">Melo<span class="logo-accent">Pilot</span></p>
+      <p class="footer-copy">&copy; <span id="year"></span> MeloPilot. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
